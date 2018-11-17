@@ -1,0 +1,14 @@
+@mixin form-rectangle($size) {
+  width: $size;
+  height: $size;
+}
+
+@mixin align-center($size) {
+  margin: auto;
+  width: $size;
+}
+
+@mixin background-transition($time) {
+  transition: $time;
+  transition-property: background-color;
+}
